@@ -1,0 +1,200 @@
+.robo{
+    
+    position: relative;
+    margin-left: 10rem;
+    margin-top: -18rem;
+
+}
+.face{
+    width: 10rem;
+    height: 8rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 500px 500px 0px 0px; 
+    animation: move1 3s infinite;
+}
+@keyframes move1 {
+0%{
+    background-color: aliceblue;
+}
+25%{
+    background-color: rgb(195, 14, 240);
+    transform: rotate(0deg);
+} 
+  
+75%{
+    background-color: rgb(234, 0, 255);
+    transform: rotate(30deg);
+}  
+100%{
+    background-color: rgb(195, 0, 255);
+    transform: rotate(0deg);
+}  
+}
+.eyeball1{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-top: 4.5rem;
+}
+ 
+.eyeball2{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 6.5rem;
+    margin-top: 4.5rem;
+}
+.body{
+    width: 10rem;
+    height: 12rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 50px 50px 0px 0px;
+    margin-left: rem;
+    rotate: 180deg;
+    margin-top: 9rem;
+    animation: movebody 1s infinite;
+}
+@keyframes movebody {
+0%{
+    background-color: aliceblue;
+}
+25%{
+    background-color: rgb(7, 182, 235);
+    transform: rotate(20deg);
+} 
+50%{
+    background-color: rgb(204, 0, 255);
+    transform: rotate(0deg);
+}   
+75%{
+    background-color: aqua;
+    transform: rotate(-20deg);
+}  
+100%{
+    background-color: aqua;
+    transform: rotate(0deg);
+}  
+}
+.hand1{
+    width: 2rem;
+    height: 7rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: rem;
+    rotate: 180deg;
+    margin-top: 10rem;
+    margin-left: -2.5rem;
+    animation: movehand 1s infinite;
+}
+@keyframes movehand {
+0%{
+    background-color: aliceblue;
+}
+25%{
+    background-color: rgb(235, 7, 205);
+    transform: rotate(20deg);
+} 
+50%{
+    background-color: rgb(204, 0, 255);
+    transform: rotate(0deg);
+}   
+75%{
+    background-color: rgb(216, 10, 243);
+    transform: rotate(-20deg);
+}  
+100%{
+    background-color: rgb(174, 0, 255);
+    transform: rotate(0deg);
+}  
+}
+    
+
+
+.hand2{
+    width: 2rem;
+    height: 7rem;
+    position: absolute;
+    background-color: rgb(240, 9, 228);
+    border-radius: 50px 50px 50px 50px;
+    margin-left: rem;
+    rotate: 180deg;
+    margin-top: 8rem;
+    margin-left: 10.5rem;
+} 
+    
+
+   
+.knee1{
+    width: 2rem;
+    height: 7rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: rem;
+    rotate: 180deg;
+    margin-top: 19rem;
+    margin-left: 6rem;
+    animation: movebody 1s infinite;
+}
+@keyframes movebody {
+0%{
+    background-color: aliceblue;
+}
+25%{
+    background-color: rgb(7, 182, 235);
+    transform: rotate(20deg);
+} 
+50%{
+    background-color: rgb(204, 0, 255);
+    transform: rotate(0deg);
+}   
+75%{
+    background-color: aqua;
+    transform: rotate(-20deg);
+}  
+100%{
+    background-color: aqua;
+    transform: rotate(0deg);
+}  
+}
+.knee2{
+    width: 2rem;
+    height: 7rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: rem;
+    rotate: 180deg;
+    margin-top: 19rem;
+    margin-left: 2rem;    animation: movebody 1s infinite;
+}
+@keyframes movebody {
+0%{
+    background-color: aliceblue;
+}
+25%{
+    background-color: rgb(189, 7, 235);
+    transform: rotate(20deg);
+} 
+50%{
+    background-color: rgb(204, 0, 255);
+    transform: rotate(0deg);
+}   
+75%{
+    background-color: rgb(177, 21, 238);
+    transform: rotate(-20deg);
+}  
+100%{
+    background-color: rgb(255, 0, 242);
+    transform: rotate(0deg);
+}  
+}
+    
